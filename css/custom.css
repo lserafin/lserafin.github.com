@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("../img/nasa-earth-unsplash.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .caption span.border {
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  .social {
+      padding-top: 25px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .social a {
+      color: white;
+      padding: 5px;
+  }
+
+  .imageCredit {
+    position: absolute;
+    top: 95%;
+    left: 88%;
+    color: white;
+  }
